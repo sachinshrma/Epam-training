@@ -1,0 +1,4 @@
+C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\bin\Debug\MathOperations.dll
+C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\bin\Debug\MathOperations.pdb
+C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.dll
+C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.pdb
