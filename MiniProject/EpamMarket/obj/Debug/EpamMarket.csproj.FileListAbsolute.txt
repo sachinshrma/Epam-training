@@ -1,9 +1,0 @@
-D:\Epam Training\MiniProject\EpamMarket\bin\Debug\EpamMarket.exe.config
-D:\Epam Training\MiniProject\EpamMarket\bin\Debug\EpamMarket.exe
-D:\Epam Training\MiniProject\EpamMarket\bin\Debug\EpamMarket.pdb
-D:\Epam Training\MiniProject\EpamMarket\obj\Debug\EpamMarket.csprojAssemblyReference.cache
-D:\Epam Training\MiniProject\EpamMarket\obj\Debug\EpamMarket.Properties.Resources.resources
-D:\Epam Training\MiniProject\EpamMarket\obj\Debug\EpamMarket.csproj.GenerateResource.cache
-D:\Epam Training\MiniProject\EpamMarket\obj\Debug\EpamMarket.exe
-D:\Epam Training\MiniProject\EpamMarket\obj\Debug\EpamMarket.pdb
-D:\Epam Training\MiniProject\EpamMarket\obj\Debug\EpamMarket.Form1.resources

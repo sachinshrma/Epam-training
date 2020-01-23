@@ -1,6 +1,0 @@
-D:\Epam Training\MiniProject\EpamMarketConsole\bin\Debug\EpamMarketConsole.exe.config
-D:\Epam Training\MiniProject\EpamMarketConsole\bin\Debug\EpamMarketConsole.exe
-D:\Epam Training\MiniProject\EpamMarketConsole\bin\Debug\EpamMarketConsole.pdb
-D:\Epam Training\MiniProject\EpamMarketConsole\obj\Debug\EpamMarketConsole.csprojAssemblyReference.cache
-D:\Epam Training\MiniProject\EpamMarketConsole\obj\Debug\EpamMarketConsole.exe
-D:\Epam Training\MiniProject\EpamMarketConsole\obj\Debug\EpamMarketConsole.pdb
