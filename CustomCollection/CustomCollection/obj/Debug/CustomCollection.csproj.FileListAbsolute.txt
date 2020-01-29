@@ -1,0 +1,6 @@
+D:\Epam-training\CustomCollection\CustomCollection\obj\Debug\CustomCollection.csprojAssemblyReference.cache
+D:\Epam-training\CustomCollection\CustomCollection\obj\Debug\CustomCollection.csproj.CoreCompileInputs.cache
+D:\Epam-training\CustomCollection\CustomCollection\bin\Debug\CustomCollection.dll
+D:\Epam-training\CustomCollection\CustomCollection\bin\Debug\CustomCollection.pdb
+D:\Epam-training\CustomCollection\CustomCollection\obj\Debug\CustomCollection.dll
+D:\Epam-training\CustomCollection\CustomCollection\obj\Debug\CustomCollection.pdb

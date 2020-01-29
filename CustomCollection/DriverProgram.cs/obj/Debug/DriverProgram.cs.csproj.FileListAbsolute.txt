@@ -1,0 +1,10 @@
+D:\Epam-training\CustomCollection\DriverProgram.cs\bin\Debug\DriverProgram.cs.exe.config
+D:\Epam-training\CustomCollection\DriverProgram.cs\bin\Debug\DriverProgram.cs.exe
+D:\Epam-training\CustomCollection\DriverProgram.cs\bin\Debug\DriverProgram.cs.pdb
+D:\Epam-training\CustomCollection\DriverProgram.cs\bin\Debug\CustomCollection.dll
+D:\Epam-training\CustomCollection\DriverProgram.cs\bin\Debug\CustomCollection.pdb
+D:\Epam-training\CustomCollection\DriverProgram.cs\obj\Debug\DriverProgram.cs.csprojAssemblyReference.cache
+D:\Epam-training\CustomCollection\DriverProgram.cs\obj\Debug\DriverProgram.cs.csproj.CoreCompileInputs.cache
+D:\Epam-training\CustomCollection\DriverProgram.cs\obj\Debug\DriverProgram.cs.csproj.CopyComplete
+D:\Epam-training\CustomCollection\DriverProgram.cs\obj\Debug\DriverProgram.cs.exe
+D:\Epam-training\CustomCollection\DriverProgram.cs\obj\Debug\DriverProgram.cs.pdb
