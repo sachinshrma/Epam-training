@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CustomCollection
 {
@@ -22,6 +18,7 @@ namespace CustomCollection
 
         void Sort();
         void Clear();
+        void Reverse();
 
         //TODO: set Count varaiable
 

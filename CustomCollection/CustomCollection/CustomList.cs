@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace CustomCollection
 {
-    public class CustomList : ICustomList
+    public class CustomList : ICustomList, IEnumerable
     {
         private int _Length;
 
@@ -99,7 +99,26 @@ namespace CustomCollection
 
         public void Sort()
         {
-            throw new NotImplementedException();
+            var tempArray = new Object[_Length];
+            Node temp = this.Head;
+            var i = 0;
+            while (temp != null)
+            {
+                tempArray[i++] = temp.Data;
+                temp = temp.Next;
+            }
+            try
+            {
+                Array.Sort(tempArray);
+            }
+            catch (InvalidOperationException ex)
+            {
+                throw new FormatException("All Data Should be of Same Type");
+            }
+
+            this.Clear();
+            foreach (var data in tempArray)
+                this.Add(data);
         }
 
         public void Clear()
@@ -111,9 +130,9 @@ namespace CustomCollection
         public bool Remove(object data)
         {
             Node prev = null, current = Head;
-            while(current!=null)
+            while (current != null)
             {
-                if(current.Data.Equals(data))
+                if (current.Data.Equals(data))
                 {
                     prev.Next = current.Next;
                     --_Length;
@@ -128,14 +147,14 @@ namespace CustomCollection
         public bool RemoveAt(int index)
         {
             Node prev = null, current = Head;
-            if(index == 0 && _Length >0)
+            if (index == 0 && _Length > 0)
             {
                 Head = Head.Next;
                 --_Length;
                 return true;
             }
 
-            while (current != null )
+            while (current != null)
             {
                 if (index == 0)
                 {
@@ -152,7 +171,7 @@ namespace CustomCollection
 
         public object Get(int index)
         {
-            if(index>_Length) throw new Exception("Index Out of Bound");
+            if (index > _Length) throw new Exception("Index Out of Bound");
             Node current = Head;
             while (current != null)
             {
@@ -164,6 +183,55 @@ namespace CustomCollection
                 current = current.Next;
             }
             return null;
+        }
+
+        public void Reverse()
+        {
+            if (Head == null) return;
+            Node prev = null, current = Head, next = null;
+            while (current != null)
+            {
+                next = current.Next;
+                current.Next = prev;
+                prev = current;
+                current = next;
+            }
+            Head = prev;
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            return new CustomListEnumerator(Head);
+        }
+
+        class CustomListEnumerator : IEnumerator
+        {
+            private Node current, Head;
+            public CustomListEnumerator(Node head)
+            {
+                this.current = null;
+                this.Head = head;
+            }
+            public object Current => current.Data;
+
+            public bool MoveNext()
+            {
+                if (current == null)
+                {
+                    current = Head;
+                    return true;
+                }
+                if (this.current.Next == null) return false;
+
+                else
+                    this.current = this.current.Next;
+                return true;
+
+            }
+
+
+            public void Reset() => current = Head;
+
         }
     }
 }

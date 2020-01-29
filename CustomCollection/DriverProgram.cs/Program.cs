@@ -8,18 +8,27 @@ namespace DriverProgram.cs
         static void Main(string[] args)
         {
             CustomList _objCustomList = new CustomList();
+
             for (var i = 0; i < 10; ++i)
                 _objCustomList.Add(i);
 
-            for (var i = 0; i < _objCustomList.Count; ++i)
-                Console.WriteLine(_objCustomList.Get(i));
+            _objCustomList.Reverse();
 
-           // _objCustomList.Clear();
-            _objCustomList.RemoveAt(_objCustomList.Count-1);
+            _objCustomList.Add("test");
+
+            try
+            {
+                _objCustomList.Sort();
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
             Console.WriteLine();
-            for (var i = 0; i < _objCustomList.Count; ++i)
-                Console.WriteLine(_objCustomList.Get(i));
-            
+            foreach (var i in _objCustomList)
+                Console.WriteLine(i);
+
 
 
         }
