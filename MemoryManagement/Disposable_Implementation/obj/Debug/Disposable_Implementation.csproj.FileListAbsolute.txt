@@ -1,0 +1,6 @@
+C:\Users\Jitender_Bhati\source\repos\Task_Week_4\Disposable_Implementation\bin\Debug\Disposable_Implementation.exe.config
+C:\Users\Jitender_Bhati\source\repos\Task_Week_4\Disposable_Implementation\bin\Debug\Disposable_Implementation.exe
+C:\Users\Jitender_Bhati\source\repos\Task_Week_4\Disposable_Implementation\bin\Debug\Disposable_Implementation.pdb
+C:\Users\Jitender_Bhati\source\repos\Task_Week_4\Disposable_Implementation\obj\Debug\Disposable_Implementation.csprojAssemblyReference.cache
+C:\Users\Jitender_Bhati\source\repos\Task_Week_4\Disposable_Implementation\obj\Debug\Disposable_Implementation.exe
+C:\Users\Jitender_Bhati\source\repos\Task_Week_4\Disposable_Implementation\obj\Debug\Disposable_Implementation.pdb
