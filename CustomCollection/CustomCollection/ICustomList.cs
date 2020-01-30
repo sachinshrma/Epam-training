@@ -3,11 +3,14 @@
 namespace CustomCollection
 {
     public interface ICustomList
-    {        
-        /// <summary>
-        /// adding data at last
-        /// </summary>
-        /// <param name="data"></param>
+    {
+        //
+        // Summary:
+        //     Gets the number of elements actually contained in the CustomList.
+        //
+        // Returns:
+        //     The number of elements actually contained in the CustomList.
+        int Count { get; }
         void Add(Object data);
         void AddFirst(Object data);
         void Insert(int index,Object data);
@@ -18,9 +21,7 @@ namespace CustomCollection
 
         void Sort();
         void Clear();
-        void Reverse();
-
-        //TODO: set Count varaiable
+        void Reverse();        
 
         bool Remove(Object data);
         bool RemoveAt(int index);        

@@ -4,3 +4,8 @@ D:\Epam-training\CustomCollection\CustomCollection\bin\Debug\CustomCollection.dl
 D:\Epam-training\CustomCollection\CustomCollection\bin\Debug\CustomCollection.pdb
 D:\Epam-training\CustomCollection\CustomCollection\obj\Debug\CustomCollection.dll
 D:\Epam-training\CustomCollection\CustomCollection\obj\Debug\CustomCollection.pdb
+C:\Users\Jitender_Bhati\Desktop\Assignment\Week 4\CustomCollection\CustomCollection\bin\Debug\CustomCollection.dll
+C:\Users\Jitender_Bhati\Desktop\Assignment\Week 4\CustomCollection\CustomCollection\bin\Debug\CustomCollection.pdb
+C:\Users\Jitender_Bhati\Desktop\Assignment\Week 4\CustomCollection\CustomCollection\obj\Debug\CustomCollection.csprojAssemblyReference.cache
+C:\Users\Jitender_Bhati\Desktop\Assignment\Week 4\CustomCollection\CustomCollection\obj\Debug\CustomCollection.dll
+C:\Users\Jitender_Bhati\Desktop\Assignment\Week 4\CustomCollection\CustomCollection\obj\Debug\CustomCollection.pdb
