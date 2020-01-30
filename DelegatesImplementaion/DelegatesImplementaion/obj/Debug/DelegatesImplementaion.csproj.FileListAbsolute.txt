@@ -1,0 +1,6 @@
+D:\Epam-training\DelegatesImplementaion\DelegatesImplementaion\bin\Debug\DelegatesImplementaion.exe.config
+D:\Epam-training\DelegatesImplementaion\DelegatesImplementaion\bin\Debug\DelegatesImplementaion.exe
+D:\Epam-training\DelegatesImplementaion\DelegatesImplementaion\bin\Debug\DelegatesImplementaion.pdb
+D:\Epam-training\DelegatesImplementaion\DelegatesImplementaion\obj\Debug\DelegatesImplementaion.csprojAssemblyReference.cache
+D:\Epam-training\DelegatesImplementaion\DelegatesImplementaion\obj\Debug\DelegatesImplementaion.exe
+D:\Epam-training\DelegatesImplementaion\DelegatesImplementaion\obj\Debug\DelegatesImplementaion.pdb
