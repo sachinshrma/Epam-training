@@ -1,0 +1,6 @@
+D:\Epam-training\CollectionImplementation\CollectionImplementation\bin\Debug\CollectionImplementation.exe.config
+D:\Epam-training\CollectionImplementation\CollectionImplementation\bin\Debug\CollectionImplementation.exe
+D:\Epam-training\CollectionImplementation\CollectionImplementation\bin\Debug\CollectionImplementation.pdb
+D:\Epam-training\CollectionImplementation\CollectionImplementation\obj\Debug\CollectionImplementation.csprojAssemblyReference.cache
+D:\Epam-training\CollectionImplementation\CollectionImplementation\obj\Debug\CollectionImplementation.exe
+D:\Epam-training\CollectionImplementation\CollectionImplementation\obj\Debug\CollectionImplementation.pdb
