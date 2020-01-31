@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using MathOperations;
 namespace MathOperationsTest
 {
     [TestClass]
@@ -11,11 +11,10 @@ namespace MathOperationsTest
         {
             #region "Arrange"
             int number1 = 2, number2 = 4;
-            MathOperations.MathOperations objMathOperation = new MathOperations.MathOperations(number1, number2);
             #endregion
 
             #region "Act"
-            double responseResult = objMathOperation.AddNumbers();
+            double responseResult = Calculator.AddNumbers(number1, number2);
             #endregion
 
             #region "Assert"
@@ -28,11 +27,10 @@ namespace MathOperationsTest
         {
             #region "Arrange"
             int number1 = 2, number2 = 4;
-            MathOperations.MathOperations objMathOperation = new MathOperations.MathOperations(number1, number2);
             #endregion
 
             #region "Act"
-            double responseResult = objMathOperation.SubtractNumbers();
+            double responseResult = Calculator.SubtractNumbers(number1, number2);
             #endregion
 
             #region "Assert"
@@ -45,11 +43,10 @@ namespace MathOperationsTest
         {
             #region "Arrange"
             int number1 = 2, number2 = 4;
-            MathOperations.MathOperations objMathOperation = new MathOperations.MathOperations(number1, number2);
             #endregion
 
             #region "Act"
-            double responseResult = objMathOperation.MultiplyNumbers();
+            double responseResult = Calculator.MultiplyNumbers(number1, number2);
             #endregion
 
             #region "Assert"
@@ -63,17 +60,15 @@ namespace MathOperationsTest
         {
             #region "Arrange"
             int number1 = 2, number2 = 4, number3=0;
-            MathOperations.MathOperations objMathOperation = new MathOperations.MathOperations(number1, number2);
-            MathOperations.MathOperations objMathOperation2 = new MathOperations.MathOperations(number1, number3);
             #endregion
 
             #region "Act"
-            double responseResult = objMathOperation.DivideNumbers();            
+            double responseResult = Calculator.DivideNumbers(number1, number2);            
             #endregion
 
             #region "Assert"
             Assert.AreEqual(0.5, responseResult);
-            Assert.ThrowsException<DivideByZeroException>(()=> objMathOperation2.DivideNumbers());            
+            Assert.ThrowsException<NegativeNumberDivisionException>(() => Calculator.DivideNumbers(number1, number3));
             #endregion
         }
     }

@@ -1,0 +1,9 @@
+D:\Epam-training\MathOperations\Driver\bin\Debug\Driver.exe.config
+D:\Epam-training\MathOperations\Driver\bin\Debug\Driver.exe
+D:\Epam-training\MathOperations\Driver\bin\Debug\Driver.pdb
+D:\Epam-training\MathOperations\Driver\bin\Debug\MathOperations.dll
+D:\Epam-training\MathOperations\Driver\bin\Debug\MathOperations.pdb
+D:\Epam-training\MathOperations\Driver\obj\Debug\Driver.csprojAssemblyReference.cache
+D:\Epam-training\MathOperations\Driver\obj\Debug\Driver.csproj.CopyComplete
+D:\Epam-training\MathOperations\Driver\obj\Debug\Driver.exe
+D:\Epam-training\MathOperations\Driver\obj\Debug\Driver.pdb

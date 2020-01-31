@@ -2,3 +2,8 @@ C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\bin\Debug\Mat
 C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\bin\Debug\MathOperations.pdb
 C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.dll
 C:\Users\Jitender_Bhati\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.pdb
+D:\Epam-training\MathOperations\MathOperations\bin\Debug\MathOperations.dll
+D:\Epam-training\MathOperations\MathOperations\bin\Debug\MathOperations.pdb
+D:\Epam-training\MathOperations\MathOperations\obj\Debug\MathOperations.csprojAssemblyReference.cache
+D:\Epam-training\MathOperations\MathOperations\obj\Debug\MathOperations.dll
+D:\Epam-training\MathOperations\MathOperations\obj\Debug\MathOperations.pdb
