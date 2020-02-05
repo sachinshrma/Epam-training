@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+        }
+        #landing {
+            width: 100%;
+            height: 100vh;
+            background: rgb(2,0,36);
+            background: linear-gradient(131deg, rgba(2,0,36,1) 0%, rgba(54,53,53,1) 60%, rgba(93,93,93,1) 100%);
+        }
+
+        #sign-bottom {
+            position: absolute;
+            color: white;
+            width: 450px;
+            left: 80px;
+            bottom: 50px;
+        }
+
+        #sign-bottom #name {
+            font-size: 60px;
+            font-family: sans-serif;
+        }
+
+        #sign-bottom #desig {
+            font-size: 36px;
+            font-family: sans-serif;
+        }
+        #sign-bottom ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        #sign-bottom li {
+            float: left;
+            padding-right: 20px;
+            margin-top: 10px;
+            font-size: 35px;
+        }
+        a{
+            color:white;
+            text-decoration: none;
+            transition:all 0.5s ease .1s;
+        }
+        .navbar {
+            height: 50px;
+            background-color: black;
+            width: 100%;
+        }
+
+        .navbar ul {
+                position: relative;
+                top: 12px;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                color: white;
+            }
+        .navbar li {
+            
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 40px;
+            float: left;
+            
+        }
+        .navbar a:hover{
+            font-size:22px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="landing">
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div id="sign-bottom">
+            <span id="name">Sachin Sharma</span><br />
+            <span id="desig">Junior Software Engineer</span>
+            <ul>
+                <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-github-square" aria-hidden="true"></i></i></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

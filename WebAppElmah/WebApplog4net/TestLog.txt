@@ -1,0 +1,12 @@
+2020-02-04 12:49:31,615 INFO WebApplog4net.Global - application started
+2020-02-04 12:50:30,639 INFO WebApplog4net.Global - application started
+2020-02-04 13:38:48,986 INFO WebApplog4net.Global - application started
+2020-02-04 13:40:19,462 INFO WebApplog4net.Global - application started
+2020-02-04 13:42:41,826 INFO WebApplog4net.Global - application started
+2020-02-04 13:43:07,121 ERROR WebApplog4net.Global - The file '/test2.aspx' does not exist.
+2020-02-04 15:55:44,893 INFO WebApplog4net.Global - application started
+2020-02-04 15:56:11,364 ERROR WebApplog4net.Global - The file '/error.aspx' does not exist.
+2020-02-04 16:01:58,488 INFO WebApplog4net.Global - application started
+2020-02-04 16:01:59,228 INFO WebApplog4net.Global - application closed
+2020-02-04 16:03:07,212 INFO WebApplog4net.Global - application started
+2020-02-04 16:03:16,089 ERROR WebApplog4net.Global - The file '/sjd.aspx' does not exist.
