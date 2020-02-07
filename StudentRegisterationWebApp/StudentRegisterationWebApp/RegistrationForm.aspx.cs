@@ -59,6 +59,7 @@ namespace StudentRegisterationWebApp
             if (Ddl_State.SelectedIndex > 0)
             {
                 Ddl_City.Items.Clear();
+                Ddl_City.Items.Add("Select City");
                 var _allCities = _objDummyData.getCities(Ddl_State.SelectedValue);
                 foreach (var city in _allCities)
                 {
@@ -76,6 +77,42 @@ namespace StudentRegisterationWebApp
         protected void Ddl_City_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Btn_Reset_Click(object sender, EventArgs e)
+        {
+            CleartextBoxes(this);
+        }
+        public void CleartextBoxes(Control parent)
+        {
+
+            foreach (Control c in parent.Controls)
+            {
+                if ((c.GetType() == typeof(TextBox)))
+                {
+
+                    ((TextBox)(c)).Text = "";
+                }
+                else if (c.GetType() == typeof(CheckBox))
+                {
+                    ((CheckBox)(c)).Checked = false;
+                }
+
+                else if (c.GetType() == typeof(RadioButton))
+                {
+                    ((RadioButton)(c)).Checked = false;
+                }
+
+                else if (c.GetType() == typeof(DropDownList))
+                {
+                    ((DropDownList)(c)).SelectedIndex= 0;
+                }
+
+                if (c.HasControls())
+                {
+                    CleartextBoxes(c);
+                }
+            }
         }
     }
 }

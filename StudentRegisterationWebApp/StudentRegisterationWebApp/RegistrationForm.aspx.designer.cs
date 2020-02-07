@@ -24,6 +24,15 @@ namespace StudentRegisterationWebApp
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// Btn_Close control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn_Close;
+
+        /// <summary>
         /// Lbl_FirstName control.
         /// </summary>
         /// <remarks>
@@ -121,6 +130,24 @@ namespace StudentRegisterationWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Lbl_Gender;
+
+        /// <summary>
+        /// Cb_Male control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton Cb_Male;
+
+        /// <summary>
+        /// Cb_Female control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton Cb_Female;
 
         /// <summary>
         /// Lbl_Streams control.
@@ -229,5 +256,14 @@ namespace StudentRegisterationWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList Ddl_City;
+
+        /// <summary>
+        /// Btn_Reset control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn_Reset;
     }
 }
