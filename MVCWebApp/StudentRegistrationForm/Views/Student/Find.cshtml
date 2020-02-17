@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Find";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using StudentRegistrationForm.CustomControls
+@using (Html.BeginForm("Details", "Student", FormMethod.Post))
+{
+    @Html.TextBox("id")
+    <input type="submit" value="Find" class="btn btn-default" />
+
+    @Html.TokenTextField("token",new List<string>() { "sachin","jitender","praveen"})
+}
+
